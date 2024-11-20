@@ -29,15 +29,17 @@ public class Car {
 
 
     public void goTo(String destination) {
-        goTo(destination, "current location");
+
+
     }
 
     public void goTo(String destination, String from) {
-        goTo(destination, from, "nowhere");
-    }
+
+            goTo(destination, from );
+        }
 
     public void goTo(String destination, String from, String passingThrough) {
-        goTo(destination, from, passingThrough, "no passengers");
+        goTo(destination, from, "no passengers");
     }
 
     public void goTo(String destination, String from, String passingThrough, String withPassenger) {
