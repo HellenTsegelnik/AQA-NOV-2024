@@ -25,10 +25,10 @@ public class ExceptionPlanes {
     }
 
     static class Plane {
-        public String FlightId;
+        public String flightId;
 
         public Plane(String getFlightId) {
-            this.getFlightId = getFlightId;
+            this.flightId = getFlightId;
         }
 
         public String getFlightId() {
